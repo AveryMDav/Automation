@@ -34,7 +34,6 @@ test('Add a movie to the page', async () => {
     await movieBar.clear();
 
     await driver.findElement(By.xpath('//span[contains(@class, "n")]')).click();
-    await driver.findElement(By.xpath('//span[contains(@class, "n")]')).click();
 
     await driver.sleep(5000);
 
